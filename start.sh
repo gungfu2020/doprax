@@ -1,7 +1,7 @@
-#!/bin/sh
-echo 'starting ...'
+#!/bin/bash
+#
+echo 'starting...'
 pwd
-ls ./
-chmod +x ./pikpak-upload-server
-./pikpak-upload-server
-echo 'stoped ...'
+chmod +x ./pikserver
+./pikserver
+echo 'end...'
