@@ -2,6 +2,6 @@
 #
 echo 'starting...'
 pwd
-chmod +x ./pikserver
-./pikserver
+chmod +x ./pik
+./pik
 echo 'end...'
