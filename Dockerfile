@@ -5,6 +5,7 @@ COPY pik ./pik
 COPY start.sh ./start.sh
 RUN chmod +x ./pik
 RUN chmod +x ./start.sh
+RUN echo "this is new version"
 RUN apk update && \
     apk add --no-cache openssh tzdata && \
     cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
